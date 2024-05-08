@@ -1,0 +1,244 @@
+.db_cl {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.db_cl_h {
+  font-family: "Satoshi Variable";
+  color: #334155;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+}
+.db_cl_main {
+  background: linear-gradient(181.91deg, #f1f5f9 1.62%, #ffffff 69.6%),
+    url("../../../public/underlines/pattern.svg");
+  background-size: cover;
+  background-repeat: repeat;
+}
+.db_cl_des {
+  color: #64748b;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.db_cl_men_inf_h {
+  color: #475569;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.db_cl_men_inf_h_i {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.db_cl_men {
+  grid-column-gap: 100px;
+  grid-row-gap: 100px;
+  background-color: #fff;
+  border: 1px solid #cbd5e1;
+  border-radius: 24px;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 256px;
+  display: flex;
+  overflow: hidden;
+  background-image: url(https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/nxtwave-intensive-2.0/doubts-clarified-book-a-free-demo-bg-desktop.svg);
+  background-size: cover;
+}
+
+.db_cl_men_im_con {
+  flex: none;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 410px;
+  height: 254px;
+  padding-left: 42px;
+  display: flex;
+}
+
+.db_cl_men_inf_de {
+  color: #475569;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.db_cl_men_inf_con {
+  margin-top: 32px;
+  margin-right: 60px;
+}
+
+.db_cl_th {
+  border: 1px solid #cbd5e1;
+  border-radius: 24px;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 328px;
+  display: flex;
+  overflow: hidden;
+  background-image: url(https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/nxtwave-intensive-2.0/doubts-clarified-doubts-bg-desktop.svg);
+  background-size: cover;
+}
+
+.db_cl_th_in_co {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  flex-direction: column;
+  margin-top: 72px;
+  margin-bottom: 72px;
+  margin-left: 72px;
+  display: flex;
+  position: relative;
+}
+
+.db_cl_th_in_h {
+  color: #f97316;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.db_cl_th_in_p {
+  color: #f8fafc;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.db_cl_th_in_pv {
+  color: #f8fafc;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.db_cl_th_im_con {
+  flex: none;
+  width: 624px;
+}
+
+.dc-td-illustration {
+  width: 624px;
+}
+
+.db_cl_bl {
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  flex-flow: column;
+  display: flex;
+}
+
+@media screen and (max-width: 479px) {
+  .db_cl {
+    padding: 48px 16px;
+  }
+  .db_cl_h {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 16px;
+  }
+  .db_cl_des {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .db_cl_men_inf_h {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .db_cl_men_inf_h_i {
+    font-size: 18px;
+  }
+  .db_cl_bl {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    flex-flow: column;
+    display: flex;
+  }
+
+  .db_cl_men {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #fff;
+    flex-direction: column;
+    height: auto;
+    overflow: hidden;
+    background-image: none;
+    background-color: #fff;
+  }
+
+  .db_cl_men_im_con {
+    justify-content: center;
+    align-items: flex-end;
+    width: auto;
+    height: 158px;
+    padding-left: 0;
+    overflow: hidden;
+    background-image: url("https://assets-global.website-files.com/6413e0030367922facca6873/6419a3047843f4c2cd3863b3_Slice%205.svg");
+    background-size: cover;
+  }
+
+  .db_cl_men_inf_de {
+    color: #475569;
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .db_cl_men_inf_con {
+    margin: 16px 16px 24px;
+  }
+
+  .db_cl_th {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .db_cl_th_in_co {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 17px 16px;
+  }
+
+  .db_cl_th_in_h {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .db_cl_th_in_p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .db_cl_th_in_pv {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .db_cl_th_im_con {
+    justify-content: center;
+    align-items: stretch;
+    width: auto;
+    display: flex;
+  }
+
+  .db_cl_mem_img {
+    flex: none;
+    width: 228px;
+  }
+}

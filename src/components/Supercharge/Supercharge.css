@@ -1,0 +1,152 @@
+.sc_parent {
+  background-color: #f6f9fb;
+  width: 100%;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.sc_child {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.sc_h {
+  color: #334155;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  text-decoration: none;
+  font-family: "Satoshi Variable";
+}
+
+.sc_it_h {
+  color: #183b56;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.sc_it_des {
+  color: #5a7184;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.sc_it_par {
+  grid-column-gap: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 530px;
+  height: 80px;
+  text-decoration: none;
+  display: flex;
+}
+
+.sc_it_im {
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  text-decoration: none;
+  display: flex;
+}
+
+.sc_d_con {
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+}
+
+.sc_items {
+  grid-column-gap: 82px;
+  grid-row-gap: 42px;
+  flex-flow: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 42px;
+  display: flex;
+}
+
+.sc_button {
+  grid-column-gap: 8px;
+  border-radius: 8px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.sc_text {
+  color: #2563eb;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
+}
+.su_ul_s {
+  margin: 18px 0px 58px;
+}
+
+@media screen and (max-width: 479px) {
+  .sc_parent {
+    padding: 48px 16px;
+  }
+
+  .sc_h {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .sc_it_h {
+    font-size: 14px;
+  }
+
+  .sc_it_par {
+    height: auto;
+  }
+
+  .sc_it_im {
+    width: 48px;
+    height: 48px;
+  }
+
+  .sc_items {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    margin-bottom: 24px;
+  }
+  .su_ul_s {
+    height: 8px;
+    width: 300px;
+    margin: 0px 0px 32px;
+  }
+  .sc_text {
+    font-size: 14px;
+  }
+}

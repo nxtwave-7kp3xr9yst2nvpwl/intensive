@@ -1,0 +1,64 @@
+.tr_alm {
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+}
+
+.tr_alm_par {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.r_alm_par_h {
+  font-family: "Satoshi Variable";
+  color: #334155;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.tr_alm_par_p {
+  color: #5a7184;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+.al_space {
+  padding: 48px 0px 24px;
+}
+@media screen and (max-width: 479px) {
+  .tr_alm {
+    padding: 48px 16px 48px;
+    display: block;
+  }
+
+  .tr_alm_par {
+    margin-top: 0;
+    padding-right: 0;
+  }
+
+  .r_alm_par_h {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .tr_alm_par_p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .al_space {
+    padding: 32px 0px 16px;
+  }
+}

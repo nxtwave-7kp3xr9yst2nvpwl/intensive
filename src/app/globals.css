@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+@font-face {
+  font-family: "Satoshi Variable";
+  src: url("../../public/fonts/Satoshi-Variable.ttf") format("truetype");
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
+.center_1200 {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 16px 0px 0px;
+}
+
+.left_side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+.right_side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  position: relative;
+}
+.hero_slider {
+  width: 430px;
+  height: 200px;
+}
+.ls_space {
+  padding: 24px 0px 48px 0px;
+}
+
+.form_bg_con {
+  position: absolute;
+  bottom: 0px;
+  z-index: -1;
+  width: 800px;
+  height: 476px;
+  bottom: 0px;
+  right: -168px;
+  background-image: url("../../public/quotes/form_bg.png");
+  background-size: cover;
+}
+.mobile_desktop {
+  display: block;
+}
+.desktop_mobile {
+  display: none;
+}
+@media screen and (max-width: 479px) {
+  .center_1200 {
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .hero_slider {
+    width: 326px;
+    height: 190px;
+    margin: 0px auto;
+  }
+  .left_side {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0px 16px;
+  }
+  .form_bg_con {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100px;
+    width: 100px;
+  }
+  .ls_space {
+    padding: 24px 0px 0px 0px;
+  }
+  .mobile_desktop {
+    display: none;
+  }
+  .desktop_mobile {
+    display: block;
+  }
+}

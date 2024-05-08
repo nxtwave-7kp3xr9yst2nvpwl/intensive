@@ -1,0 +1,36 @@
+.programs_animate {
+  height: 64px;
+  width: 462px;
+  display: inline-block;
+  overflow: hidden;
+  color: #f97316;
+}
+.programs_animate span {
+  flex: none;
+}
+.india_most_text {
+  font-family: Satoshi Variable;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+  width: 462px;
+  color: #334155;
+}
+@media screen and (max-width: 479px) {
+  .programs_animate {
+    width: 328px;
+    height: 48px;
+  }
+  .prog_ul {
+    height: 9px;
+    width: 328px;
+  }
+  .india_most_text {
+    width: 328px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.800000011920929px;
+  }
+}

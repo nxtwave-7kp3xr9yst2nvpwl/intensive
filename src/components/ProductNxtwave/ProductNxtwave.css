@@ -1,0 +1,27 @@
+.prod_of_nw {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+.prod_of_nw_con {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 12px;
+  padding: 16px 0px 16px 86px;
+}
+
+@media screen and (max-width: 479px) {
+  .prod_of_nw_con {
+    margin: 0px 0px 0px 0px;
+    padding: 24px 0px;
+    order: 0;
+  }
+  .prod_of_nw {
+    color: #334155;
+  }
+}
