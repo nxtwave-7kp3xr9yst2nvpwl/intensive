@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import "./Form.css";
 import Script from "next/script";
@@ -23,15 +24,18 @@ export default function Form() {
       </div>
       <Script
         type="text/javascript"
-        src="https://forms.ccbp.in/webflow/runtime.f0bfb146c4a6d9b5.js"
+        src="https://forms-gamma.earlywave.in/webflow/runtime.dc3d490e8372a9ba.js"
+        // strategy="worker"
       />
       <Script
         type="text/javascript"
-        src="https://forms.ccbp.in/webflow/polyfills.1b3d2d26863476f2.js"
+        src="https://forms-gamma.earlywave.in/webflow/polyfills.524b888b29689d0a.js"
+        // strategy="worker"
       />
       <Script
         type="text/javascript"
-        src="https://forms.ccbp.in/webflow/bookAFreeDemo.004e28e1a2e0364b.js"
+        src="https://forms-gamma.earlywave.in/webflow/bookAFreeDemo.a312e66940c89012.js"
+        // strategy="worker"
       />
     </>
   );
