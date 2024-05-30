@@ -24,17 +24,17 @@ export default function Form() {
       </div>
       <Script
         type="text/javascript"
-        src="https://forms-gamma.earlywave.in/webflow/runtime.dc3d490e8372a9ba.js"
+        src="https://forms-gamma.earlywave.in/webflow/runtime.53dfabfd9ad5e6d1.js"
         // strategy="worker"
       />
       <Script
         type="text/javascript"
-        src="https://forms-gamma.earlywave.in/webflow/polyfills.524b888b29689d0a.js"
+        src="https://forms-gamma.earlywave.in/webflow/polyfills.6b47c42c19f99a2a.js"
         // strategy="worker"
       />
       <Script
         type="text/javascript"
-        src="https://forms-gamma.earlywave.in/webflow/bookAFreeDemo.a312e66940c89012.js"
+        src="https://forms-gamma.earlywave.in/webflow/bookAFreeDemo.7f032eda66026370.js"
         // strategy="worker"
       />
     </>
