@@ -16,8 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <GoogleTagManager gtmId="GTM-PHWFTMTM" />
+    <html lang="en">      
       <body className={inter.className}>{children}'
       </body>
     </html>
