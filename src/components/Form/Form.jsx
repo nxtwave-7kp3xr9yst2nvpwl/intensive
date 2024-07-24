@@ -21,7 +21,9 @@ export default function Form() {
           />
         </div>
         <div id="book-a-free-demo-intensive" className="form_id"></div>
-
+<Script type="text/javascript" src="https://forms-gamma.earlywave.in/webflow/runtime.f9a300dff6567c50.js"></Script>
+<Script type="text/javascript" src="https://forms-gamma.earlywave.in/webflow/polyfills.909b5d2fcc784a4f.js"></Script>
+<Script type="text/javascript" src="https://forms-gamma.earlywave.in/webflow/bookAFreeDemo.cf7239163d21c638.js"></Script>
       </div>
     </>
   );
